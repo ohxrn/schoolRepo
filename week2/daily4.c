@@ -1,5 +1,11 @@
+/*
+ *Jack Ohrn
+ *Sept.15 2024
+
+ *This program works with different types of format specifiers and variable types to print values.
+*/
+
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(int argc, char *argv[])
 {

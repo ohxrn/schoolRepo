@@ -1,5 +1,10 @@
+/*
+ *Jack Ohrn
+ *Sept.15 2024
+
+ *This program prints two lines and uses excape characters to practice syntax. .
+*/
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(int argc, char *argv[])
 {
