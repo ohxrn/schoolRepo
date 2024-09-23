@@ -22,7 +22,7 @@ int main(void)
 {
     recursive_down_to_zero(10);
     printf("****\n");
-    recursive_up_to_int(0);
+    recursive_up_to_int(10);
     return 0;
 }
 
@@ -36,9 +36,9 @@ void recursive_down_to_zero(int num)
 }
 void recursive_up_to_int(int num)
 {
-    if (num <= 10)
+    if (num > 0)
     {
-        printf("%d\n", num);
-        recursive_up_to_int(num + 1);
+        recursive_up_to_int(num - 1);
     }
+    printf("%d\n", num);
 }
