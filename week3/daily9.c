@@ -13,9 +13,8 @@ void loop_up_to_int(int num);
 int main(void)
 {
     int input;
-    printf("Please print a positive integer \n");
-    int check = scanf("%d", &input);
-
+    printf("Please print a positive integer: ");
+    scanf("%d", &input);
     loop_down_to_zero(input);
     printf("**** \n");
     loop_up_to_int(input);
