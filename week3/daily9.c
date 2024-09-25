@@ -13,7 +13,8 @@
  */
 void loop_down_to_zero(int num);
 /*
- *This function takes original integer from main, and increments from zero back to the passed int.
+ *This function takes original integer from main,
+ *and increments from zero back to the passed int.
  */
 void loop_up_to_int(int num);
 
