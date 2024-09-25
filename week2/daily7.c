@@ -2,14 +2,16 @@
  *Author: Jack Ohrn
  *Sept.22 2024
 
- *This program uses recursion to *If we pass too large of a number to either function, we get a buffer overflow.('zsh: segmentation fault')
+ *DAILY 7----This program uses recursion to print binary representation of entered input.
 */
 
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+Sends all calls provided by main func to recursively print out the buinary representation of the input in the correct order because of the call stack mechanics.
+*/
 void print_binary(int scanNum);
-;
 
 int main(void)
 {
@@ -27,5 +29,5 @@ void print_binary(int scanNum)
     {
         print_binary(scanNum / 2);
     }
-    printf("%d->%d", scanNum, scanNum % 2);
+    printf("%d", scanNum % 2);
 }

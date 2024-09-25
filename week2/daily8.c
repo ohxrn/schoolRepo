@@ -1,7 +1,7 @@
 /*
  *Author: Jack Ohrn
  *Date
- *Description
+ *DAILY 8---Takes an input scanned by scanf and returns new integer based off conditional.
  */
 #include <stdio.h>
 #include <stdlib.h>
