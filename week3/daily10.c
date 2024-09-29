@@ -9,6 +9,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// this function clears the keyboard buffer for scanf() to properly function.
 void clear_buffer(void);
 
 int main(void)
