@@ -1,12 +1,20 @@
 /*
  *Author: Jack Ohrn
- *Date
- *Description
+ *October 3rd, 2024
+ *Purpose: Takes an integer input from 1-79 then prints the same number of
+asterisks in a row. If not 1-79 then falls into while loop until correct input is given
+*Time spent: ~30 mins
  */
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+draw_line() takes an int num from main and converts the int to X amount of asterisks printed in terminal.
+*/
 void draw_line(int num);
+/*
+clear_buffer() clears keyboard buffer for proper input values.
+*/
 void clear_buffer(void);
 
 int main(void)
@@ -22,6 +30,7 @@ int main(void)
         clear_buffer();
     }
     draw_line(num);
+
     return 0;
 }
 
@@ -32,6 +41,7 @@ void draw_line(int num)
         printf("*");
         num--;
     }
+    printf("\n");
 }
 
 void clear_buffer(void)
