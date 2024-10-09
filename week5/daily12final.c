@@ -1,13 +1,17 @@
 /*
  *Author: Jack Ohrn
- *Date
- *Description
+ *Oct. 8th, 2024
+ *Given two users input, the winner of the rock paper scissors game is determined.
+ Time spent: ~1 hour
  */
 #include <stdio.h>
 #include <stdlib.h>
 
+// Clears the keyboard buffer
 void clear_buffer(void);
+// the input_validation() function is implemented to keep the code clean and use less repetition.
 int input_validation(char);
+// results() is passed two arguments, and properly determines which player won.
 void results(char, char);
 
 int main(int argc, char *argv[])
