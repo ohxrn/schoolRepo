@@ -1,7 +1,7 @@
 /*
  *Author: Jack Ohrn
  *Date
- *Determines winner of rock paper scissors match using struct's and enum types versus daily 12.
+ *Determines winner of rock paper scissors match using struct's and enum types compared to daily 12.
  Time spent: ~3 Hours
  */
 #include <stdio.h>
